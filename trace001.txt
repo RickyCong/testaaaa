@@ -1,0 +1,1036 @@
+libmrcds.so base address:0x7a3b8ce000
+0x7a3b914ac8[libmrcds.so@0x46ac8]		and	w12, w3, #0xff	W3=0x0
+0x7a3b914acc[libmrcds.so@0x46acc]		and	w8, w4, #0xff	W4=0x0
+0x7a3b914ad0[libmrcds.so@0x46ad0]		cmp	w12, #1	W12=0x0
+0x7a3b914ad4[libmrcds.so@0x46ad4]		and	w11, w5, #0xff	W5=0x0
+0x7a3b914ad8[libmrcds.so@0x46ad8]		ldrb	w13, [sp]	SP=0x7a38400240
+0x7a3b914adc[libmrcds.so@0x46adc]		cset	w1, eq	
+0x7a3b914ae0[libmrcds.so@0x46ae0]		cmp	w8, #1	W8=0x0
+0x7a3b914ae4[libmrcds.so@0x46ae4]		and	w10, w6, #0xff	W6=0x0
+0x7a3b914ae8[libmrcds.so@0x46ae8]		cset	w8, eq	
+0x7a3b914aec[libmrcds.so@0x46aec]		cmp	w11, #1	W11=0x0
+0x7a3b914af0[libmrcds.so@0x46af0]		and	w9, w7, #0xff	W7=0x0
+0x7a3b914af4[libmrcds.so@0x46af4]		cset	w3, eq	
+0x7a3b914af8[libmrcds.so@0x46af8]		cmp	w10, #1	W10=0x0
+0x7a3b914afc[libmrcds.so@0x46afc]		cset	w4, eq	
+0x7a3b914b00[libmrcds.so@0x46b00]		cmp	w9, #1	W9=0x0
+0x7a3b914b04[libmrcds.so@0x46b04]		cset	w5, eq	
+0x7a3b914b08[libmrcds.so@0x46b08]		cmp	w13, #1	W13=0x0
+0x7a3b914b0c[libmrcds.so@0x46b0c]		cset	w6, eq	
+0x7a3b914b10[libmrcds.so@0x46b10]		mov	w0, w2	W2=0x11
+0x7a3b914b14[libmrcds.so@0x46b14]		mov	w2, w8	W8=0x0
+0x7a3b914b18[libmrcds.so@0x46b18]		b	#-2712	
+0x7a3b914080[libmrcds.so@0x46080]		adrp	x16, #593920	
+0x7a3b914084[libmrcds.so@0x46084]		ldr	x17, [x16, #1992]	X16=0x7a3b9a5000
+0x7a3b914088[libmrcds.so@0x46088]		add	x16, x16, #1992	X16=0x7a3b9a5000
+0x7a3b91408c[libmrcds.so@0x4608c]		br	x17	X17=0x7a3b91f3c4
+0x7a3b91f3c4[libmrcds.so@0x513c4]		sub	sp, sp, #48	SP=0x7a38400240
+0x7a3b91f3c8[libmrcds.so@0x513c8]		str	x19, [sp, #16]	X19=0x0 SP=0x7a38400210
+0x7a3b91f3cc[libmrcds.so@0x513cc]		stp	x29, x30, [sp, #32]	FP=0x7a384002c0 LR=0x2a SP=0x7a38400210
+0x7a3b91f3d0[libmrcds.so@0x513d0]		add	x29, sp, #32	SP=0x7a38400210
+0x7a3b91f3d4[libmrcds.so@0x513d4]		mrs	x19, TPIDR_EL0	
+0x7a3b91f3d8[libmrcds.so@0x513d8]		ldr	x9, [x19, #40]	X19=0x7ac4f98020
+0x7a3b91f3dc[libmrcds.so@0x513dc]		mov	x10, #8246	
+0x7a3b91f3e0[libmrcds.so@0x513e0]		movk	x10, #513, lsl #16	X10=0x2036
+0x7a3b91f3e4[libmrcds.so@0x513e4]		movk	x10, #4672, lsl #32	X10=0x2012036
+0x7a3b91f3e8[libmrcds.so@0x513e8]		movk	x10, #16516, lsl #48	X10=0x124002012036
+0x7a3b91f3ec[libmrcds.so@0x513ec]		mov	w8, w0	W0=0x11
+0x7a3b91f3f0[libmrcds.so@0x513f0]		str	x9, [sp, #8]	X9=0x873515649ccc4b18 SP=0x7a38400210
+0x7a3b91f3f4[libmrcds.so@0x513f4]		str	x10, [sp]	X10=0x4084124002012036 SP=0x7a38400210
+0x7a3b91f3f8[libmrcds.so@0x513f8]		and	w9, w1, #0x1	W1=0x0
+0x7a3b91f3fc[libmrcds.so@0x513fc]		and	w10, w2, #0x1	W2=0x0
+0x7a3b91f400[libmrcds.so@0x51400]		and	w11, w3, #0x1	W3=0x0
+0x7a3b91f404[libmrcds.so@0x51404]		and	w12, w4, #0x1	W4=0x0
+0x7a3b91f408[libmrcds.so@0x51408]		and	w13, w5, #0x1	W5=0x0
+0x7a3b91f40c[libmrcds.so@0x5140c]		and	w7, w6, #0x1	W6=0x0
+0x7a3b91f410[libmrcds.so@0x51410]		mov	x0, sp	SP=0x7a38400210
+0x7a3b91f414[libmrcds.so@0x51414]		mov	w1, w8	W8=0x11
+0x7a3b91f418[libmrcds.so@0x51418]		mov	w2, w9	W9=0x0
+0x7a3b91f41c[libmrcds.so@0x5141c]		mov	w3, w10	W10=0x0
+0x7a3b91f420[libmrcds.so@0x51420]		mov	w4, w11	W11=0x0
+0x7a3b91f424[libmrcds.so@0x51424]		mov	w5, w12	W12=0x0
+0x7a3b91f428[libmrcds.so@0x51428]		mov	w6, w13	W13=0x0
+0x7a3b91f42c[libmrcds.so@0x5142c]		bl	#-47964	SP=0x7a38400210
+0x7a3b9138d0[libmrcds.so@0x458d0]		adrp	x16, #598016	
+0x7a3b9138d4[libmrcds.so@0x458d4]		ldr	x17, [x16, #1008]	X16=0x7a3b9a5000
+0x7a3b9138d8[libmrcds.so@0x458d8]		add	x16, x16, #1008	X16=0x7a3b9a5000
+0x7a3b9138dc[libmrcds.so@0x458dc]		br	x17	X17=0x7a3b919da0
+0x7a3b919da0[libmrcds.so@0x4bda0]		sub	sp, sp, #112	SP=0x7a38400210
+0x7a3b919da4[libmrcds.so@0x4bda4]		stp	x22, x21, [sp, #64]	X22=0x0 X21=0x0 SP=0x7a384001a0
+0x7a3b919da8[libmrcds.so@0x4bda8]		stp	x20, x19, [sp, #80]	X20=0x0 X19=0x7ac4f98020 SP=0x7a384001a0
+0x7a3b919dac[libmrcds.so@0x4bdac]		stp	x29, x30, [sp, #96]	FP=0x7a38400230 LR=0x7a3b91f430 SP=0x7a384001a0
+0x7a3b919db0[libmrcds.so@0x4bdb0]		add	x29, sp, #96	SP=0x7a384001a0
+0x7a3b919db4[libmrcds.so@0x4bdb4]		mrs	x21, TPIDR_EL0	
+0x7a3b919db8[libmrcds.so@0x4bdb8]		ldr	x11, [x21, #40]	X21=0x7ac4f98020
+0x7a3b919dbc[libmrcds.so@0x4bdbc]		mov	w19, w1	W1=0x11
+0x7a3b919dc0[libmrcds.so@0x4bdc0]		mov	x20, x0	X0=0x7a38400210
+0x7a3b919dc4[libmrcds.so@0x4bdc4]		and	w8, w2, #0x1	W2=0x0
+0x7a3b919dc8[libmrcds.so@0x4bdc8]		and	w9, w3, #0x1	W3=0x0
+0x7a3b919dcc[libmrcds.so@0x4bdcc]		and	w10, w4, #0x1	W4=0x0
+0x7a3b919dd0[libmrcds.so@0x4bdd0]		and	w12, w5, #0x1	W5=0x0
+0x7a3b919dd4[libmrcds.so@0x4bdd4]		and	w13, w6, #0x1	W6=0x0
+0x7a3b919dd8[libmrcds.so@0x4bdd8]		and	w14, w7, #0x1	W7=0x0
+0x7a3b919ddc[libmrcds.so@0x4bddc]		add	x0, sp, #8	SP=0x7a384001a0
+0x7a3b919de0[libmrcds.so@0x4bde0]		add	x1, sp, #32	SP=0x7a384001a0
+0x7a3b919de4[libmrcds.so@0x4bde4]		mov	w2, #6	
+0x7a3b919de8[libmrcds.so@0x4bde8]		stur	x11, [x29, #-40]	X11=0x873515649ccc4b18 FP=0x7a38400200
+0x7a3b919dec[libmrcds.so@0x4bdec]		strb	w8, [sp, #32]	W8=0x0 SP=0x7a384001a0
+0x7a3b919df0[libmrcds.so@0x4bdf0]		strb	w9, [sp, #33]	W9=0x0 SP=0x7a384001a0
+0x7a3b919df4[libmrcds.so@0x4bdf4]		strb	w10, [sp, #34]	W10=0x0 SP=0x7a384001a0
+0x7a3b919df8[libmrcds.so@0x4bdf8]		strb	w12, [sp, #35]	W12=0x0 SP=0x7a384001a0
+0x7a3b919dfc[libmrcds.so@0x4bdfc]		strb	w13, [sp, #36]	W13=0x0 SP=0x7a384001a0
+0x7a3b919e00[libmrcds.so@0x4be00]		strb	w14, [sp, #37]	W14=0x0 SP=0x7a384001a0
+0x7a3b919e04[libmrcds.so@0x4be04]		bl	#-26052	SP=0x7a384001a0
+0x7a3b913840[libmrcds.so@0x45840]		adrp	x16, #598016	
+0x7a3b913844[libmrcds.so@0x45844]		ldr	x17, [x16, #936]	X16=0x7a3b9a5000
+0x7a3b913848[libmrcds.so@0x45848]		add	x16, x16, #936	X16=0x7a3b9a5000
+0x7a3b91384c[libmrcds.so@0x4584c]		br	x17	X17=0x7a3b919f60
+0x7a3b919f60[libmrcds.so@0x4bf60]		str	x23, [sp, #-64]!	X23=0x0 SP=0x7a384001a0
+0x7a3b919f64[libmrcds.so@0x4bf64]		stp	x22, x21, [sp, #16]	X22=0x0 X21=0x7ac4f98020 SP=0x7a38400160
+0x7a3b919f68[libmrcds.so@0x4bf68]		stp	x20, x19, [sp, #32]	X20=0x7a38400210 X19=0x11 SP=0x7a38400160
+0x7a3b919f6c[libmrcds.so@0x4bf6c]		stp	x29, x30, [sp, #48]	FP=0x7a38400200 LR=0x7a3b919e08 SP=0x7a38400160
+0x7a3b919f70[libmrcds.so@0x4bf70]		add	x29, sp, #48	SP=0x7a38400160
+0x7a3b919f74[libmrcds.so@0x4bf74]		stp	xzr, xzr, [x0]	X0=0x7a384001a8
+0x7a3b919f78[libmrcds.so@0x4bf78]		str	xzr, [x0, #16]	X0=0x7a384001a8
+0x7a3b919f7c[libmrcds.so@0x4bf7c]		cbz	x2, #144	X2=0x6
+0x7a3b919f80[libmrcds.so@0x4bf80]		mov	x19, x2	X2=0x6
+0x7a3b919f84[libmrcds.so@0x4bf84]		mov	x21, x0	X0=0x7a384001a8
+0x7a3b919f88[libmrcds.so@0x4bf88]		tbnz	x2, #63, #152	X2=0x6
+0x7a3b919f8c[libmrcds.so@0x4bf8c]		sub	x8, x19, #1	X19=0x6
+0x7a3b919f90[libmrcds.so@0x4bf90]		lsr	x22, x8, #6	X8=0x5
+0x7a3b919f94[libmrcds.so@0x4bf94]		add	x23, x22, #1	X22=0x0
+0x7a3b919f98[libmrcds.so@0x4bf98]		lsl	x0, x23, #3	X23=0x1
+0x7a3b919f9c[libmrcds.so@0x4bf9c]		mov	x20, x1	X1=0x7a384001c0
+0x7a3b919fa0[libmrcds.so@0x4bfa0]		bl	#-24176	SP=0x7a38400160
+0x7a3b914130[libmrcds.so@0x46130]		adrp	x16, #593920	
+0x7a3b914134[libmrcds.so@0x46134]		ldr	x17, [x16, #2080]	X16=0x7a3b9a5000
+0x7a3b914138[libmrcds.so@0x46138]		add	x16, x16, #2080	X16=0x7a3b9a5000
+0x7a3b91413c[libmrcds.so@0x4613c]		br	x17	X17=0x7a3b95c864
+0x7a3b95c864[libmrcds.so@0x8e864]		str	x19, [sp, #-32]!	X19=0x6 SP=0x7a38400160
+0x7a3b95c868[libmrcds.so@0x8e868]		stp	x29, x30, [sp, #16]	FP=0x7a38400190 LR=0x7a3b919fa4 SP=0x7a38400140
+0x7a3b95c86c[libmrcds.so@0x8e86c]		add	x29, sp, #16	SP=0x7a38400140
+0x7a3b95c870[libmrcds.so@0x8e870]		cmp	x0, #0	X0=0x8
+0x7a3b95c874[libmrcds.so@0x8e874]		csinc	x19, x0, xzr, ne	X0=0x8
+0x7a3b95c878[libmrcds.so@0x8e878]		mov	x0, x19	X19=0x8
+0x7a3b95c87c[libmrcds.so@0x8e87c]		bl	#-300860	SP=0x7a38400140
+0x7a3b913140[libmrcds.so@0x45140]		adrp	x16, #598016	
+0x7a3b913144[libmrcds.so@0x45144]		ldr	x17, [x16, #40]	X16=0x7a3b9a5000
+0x7a3b913148[libmrcds.so@0x45148]		add	x16, x16, #40	X16=0x7a3b9a5000
+0x7a3b91314c[libmrcds.so@0x4514c]		br	x17	X17=0x7b5899a32c
+ -> transfer call to 0x7b5899a32c (libc.so@0x4032c)
+ <- transfer return from 0x7b5899a32c (libc.so@0x4032c)
+0x7a3b95c880[libmrcds.so@0x8e880]		cbnz	x0, #20	X0=0x7ac3ec25f8
+0x7a3b95c894[libmrcds.so@0x8e894]		ldp	x29, x30, [sp, #16]	SP=0x7a38400140
+0x7a3b95c898[libmrcds.so@0x8e898]		ldr	x19, [sp], #32	SP=0x7a38400140
+0x7a3b95c89c[libmrcds.so@0x8e89c]		ret	LR=0x7a3b919fa4
+0x7a3b919fa4[libmrcds.so@0x4bfa4]		cmp	x19, #65	X19=0x6
+0x7a3b919fa8[libmrcds.so@0x4bfa8]		csel	x9, xzr, x22, lo	X22=0x0
+0x7a3b919fac[libmrcds.so@0x4bfac]		mov	w8, wzr	
+0x7a3b919fb0[libmrcds.so@0x4bfb0]		stp	x19, x23, [x21, #8]	X19=0x6 X23=0x1 X21=0x7a384001a8
+0x7a3b919fb4[libmrcds.so@0x4bfb4]		str	x0, [x21]	X0=0x7ac3ec25f8 X21=0x7a384001a8
+0x7a3b919fb8[libmrcds.so@0x4bfb8]		str	xzr, [x0, x9, lsl #3]	X0=0x7ac3ec25f8 X9=0x0
+0x7a3b919fbc[libmrcds.so@0x4bfbc]		mov	w9, #1	
+0x7a3b919fc0[libmrcds.so@0x4bfc0]		mov	x10, x0	X0=0x7ac3ec25f8
+0x7a3b919fc4[libmrcds.so@0x4bfc4]		b	#48	
+0x7a3b919ff4[libmrcds.so@0x4bff4]		ldrb	w12, [x20]	X20=0x7a384001c0
+0x7a3b919ff8[libmrcds.so@0x4bff8]		lsl	x11, x9, x8	X9=0x1 X8=0x0
+0x7a3b919ffc[libmrcds.so@0x4bffc]		cbz	w12, #-52	W12=0x0
+0x7a3b919fc8[libmrcds.so@0x4bfc8]		ldr	x12, [x10]	X10=0x7ac3ec25f8
+0x7a3b919fcc[libmrcds.so@0x4bfcc]		bic	x11, x12, x11	X12=0x0 X11=0x1
+0x7a3b919fd0[libmrcds.so@0x4bfd0]		str	x11, [x10]	X11=0x0 X10=0x7ac3ec25f8
+0x7a3b919fd4[libmrcds.so@0x4bfd4]		add	x11, x0, #8	X0=0x7ac3ec25f8
+0x7a3b919fd8[libmrcds.so@0x4bfd8]		cmp	w8, #63	W8=0x0
+0x7a3b919fdc[libmrcds.so@0x4bfdc]		csel	x0, x11, x0, eq	X11=0x7ac3ec2600 X0=0x7ac3ec25f8
+0x7a3b919fe0[libmrcds.so@0x4bfe0]		csinc	w8, wzr, w8, eq	W8=0x0
+0x7a3b919fe4[libmrcds.so@0x4bfe4]		csel	x10, x11, x10, eq	X11=0x7ac3ec2600 X10=0x7ac3ec25f8
+0x7a3b919fe8[libmrcds.so@0x4bfe8]		subs	x19, x19, #1	X19=0x6
+0x7a3b919fec[libmrcds.so@0x4bfec]		add	x20, x20, #1	X20=0x7a384001c0
+0x7a3b919ff0[libmrcds.so@0x4bff0]		b.eq	#28	
+0x7a3b919ff4[libmrcds.so@0x4bff4]		ldrb	w12, [x20]	X20=0x7a384001c1
+0x7a3b919ff8[libmrcds.so@0x4bff8]		lsl	x11, x9, x8	X9=0x1 X8=0x1
+0x7a3b919ffc[libmrcds.so@0x4bffc]		cbz	w12, #-52	W12=0x0
+0x7a3b919fc8[libmrcds.so@0x4bfc8]		ldr	x12, [x10]	X10=0x7ac3ec25f8
+0x7a3b919fcc[libmrcds.so@0x4bfcc]		bic	x11, x12, x11	X12=0x0 X11=0x2
+0x7a3b919fd0[libmrcds.so@0x4bfd0]		str	x11, [x10]	X11=0x0 X10=0x7ac3ec25f8
+0x7a3b919fd4[libmrcds.so@0x4bfd4]		add	x11, x0, #8	X0=0x7ac3ec25f8
+0x7a3b919fd8[libmrcds.so@0x4bfd8]		cmp	w8, #63	W8=0x1
+0x7a3b919fdc[libmrcds.so@0x4bfdc]		csel	x0, x11, x0, eq	X11=0x7ac3ec2600 X0=0x7ac3ec25f8
+0x7a3b919fe0[libmrcds.so@0x4bfe0]		csinc	w8, wzr, w8, eq	W8=0x1
+0x7a3b919fe4[libmrcds.so@0x4bfe4]		csel	x10, x11, x10, eq	X11=0x7ac3ec2600 X10=0x7ac3ec25f8
+0x7a3b919fe8[libmrcds.so@0x4bfe8]		subs	x19, x19, #1	X19=0x5
+0x7a3b919fec[libmrcds.so@0x4bfec]		add	x20, x20, #1	X20=0x7a384001c1
+0x7a3b919ff0[libmrcds.so@0x4bff0]		b.eq	#28	
+0x7a3b919ff4[libmrcds.so@0x4bff4]		ldrb	w12, [x20]	X20=0x7a384001c2
+0x7a3b919ff8[libmrcds.so@0x4bff8]		lsl	x11, x9, x8	X9=0x1 X8=0x2
+0x7a3b919ffc[libmrcds.so@0x4bffc]		cbz	w12, #-52	W12=0x0
+0x7a3b919fc8[libmrcds.so@0x4bfc8]		ldr	x12, [x10]	X10=0x7ac3ec25f8
+0x7a3b919fcc[libmrcds.so@0x4bfcc]		bic	x11, x12, x11	X12=0x0 X11=0x4
+0x7a3b919fd0[libmrcds.so@0x4bfd0]		str	x11, [x10]	X11=0x0 X10=0x7ac3ec25f8
+0x7a3b919fd4[libmrcds.so@0x4bfd4]		add	x11, x0, #8	X0=0x7ac3ec25f8
+0x7a3b919fd8[libmrcds.so@0x4bfd8]		cmp	w8, #63	W8=0x2
+0x7a3b919fdc[libmrcds.so@0x4bfdc]		csel	x0, x11, x0, eq	X11=0x7ac3ec2600 X0=0x7ac3ec25f8
+0x7a3b919fe0[libmrcds.so@0x4bfe0]		csinc	w8, wzr, w8, eq	W8=0x2
+0x7a3b919fe4[libmrcds.so@0x4bfe4]		csel	x10, x11, x10, eq	X11=0x7ac3ec2600 X10=0x7ac3ec25f8
+0x7a3b919fe8[libmrcds.so@0x4bfe8]		subs	x19, x19, #1	X19=0x4
+0x7a3b919fec[libmrcds.so@0x4bfec]		add	x20, x20, #1	X20=0x7a384001c2
+0x7a3b919ff0[libmrcds.so@0x4bff0]		b.eq	#28	
+0x7a3b919ff4[libmrcds.so@0x4bff4]		ldrb	w12, [x20]	X20=0x7a384001c3
+0x7a3b919ff8[libmrcds.so@0x4bff8]		lsl	x11, x9, x8	X9=0x1 X8=0x3
+0x7a3b919ffc[libmrcds.so@0x4bffc]		cbz	w12, #-52	W12=0x0
+0x7a3b919fc8[libmrcds.so@0x4bfc8]		ldr	x12, [x10]	X10=0x7ac3ec25f8
+0x7a3b919fcc[libmrcds.so@0x4bfcc]		bic	x11, x12, x11	X12=0x0 X11=0x8
+0x7a3b919fd0[libmrcds.so@0x4bfd0]		str	x11, [x10]	X11=0x0 X10=0x7ac3ec25f8
+0x7a3b919fd4[libmrcds.so@0x4bfd4]		add	x11, x0, #8	X0=0x7ac3ec25f8
+0x7a3b919fd8[libmrcds.so@0x4bfd8]		cmp	w8, #63	W8=0x3
+0x7a3b919fdc[libmrcds.so@0x4bfdc]		csel	x0, x11, x0, eq	X11=0x7ac3ec2600 X0=0x7ac3ec25f8
+0x7a3b919fe0[libmrcds.so@0x4bfe0]		csinc	w8, wzr, w8, eq	W8=0x3
+0x7a3b919fe4[libmrcds.so@0x4bfe4]		csel	x10, x11, x10, eq	X11=0x7ac3ec2600 X10=0x7ac3ec25f8
+0x7a3b919fe8[libmrcds.so@0x4bfe8]		subs	x19, x19, #1	X19=0x3
+0x7a3b919fec[libmrcds.so@0x4bfec]		add	x20, x20, #1	X20=0x7a384001c3
+0x7a3b919ff0[libmrcds.so@0x4bff0]		b.eq	#28	
+0x7a3b919ff4[libmrcds.so@0x4bff4]		ldrb	w12, [x20]	X20=0x7a384001c4
+0x7a3b919ff8[libmrcds.so@0x4bff8]		lsl	x11, x9, x8	X9=0x1 X8=0x4
+0x7a3b919ffc[libmrcds.so@0x4bffc]		cbz	w12, #-52	W12=0x0
+0x7a3b919fc8[libmrcds.so@0x4bfc8]		ldr	x12, [x10]	X10=0x7ac3ec25f8
+0x7a3b919fcc[libmrcds.so@0x4bfcc]		bic	x11, x12, x11	X12=0x0 X11=0x10
+0x7a3b919fd0[libmrcds.so@0x4bfd0]		str	x11, [x10]	X11=0x0 X10=0x7ac3ec25f8
+0x7a3b919fd4[libmrcds.so@0x4bfd4]		add	x11, x0, #8	X0=0x7ac3ec25f8
+0x7a3b919fd8[libmrcds.so@0x4bfd8]		cmp	w8, #63	W8=0x4
+0x7a3b919fdc[libmrcds.so@0x4bfdc]		csel	x0, x11, x0, eq	X11=0x7ac3ec2600 X0=0x7ac3ec25f8
+0x7a3b919fe0[libmrcds.so@0x4bfe0]		csinc	w8, wzr, w8, eq	W8=0x4
+0x7a3b919fe4[libmrcds.so@0x4bfe4]		csel	x10, x11, x10, eq	X11=0x7ac3ec2600 X10=0x7ac3ec25f8
+0x7a3b919fe8[libmrcds.so@0x4bfe8]		subs	x19, x19, #1	X19=0x2
+0x7a3b919fec[libmrcds.so@0x4bfec]		add	x20, x20, #1	X20=0x7a384001c4
+0x7a3b919ff0[libmrcds.so@0x4bff0]		b.eq	#28	
+0x7a3b919ff4[libmrcds.so@0x4bff4]		ldrb	w12, [x20]	X20=0x7a384001c5
+0x7a3b919ff8[libmrcds.so@0x4bff8]		lsl	x11, x9, x8	X9=0x1 X8=0x5
+0x7a3b919ffc[libmrcds.so@0x4bffc]		cbz	w12, #-52	W12=0x0
+0x7a3b919fc8[libmrcds.so@0x4bfc8]		ldr	x12, [x10]	X10=0x7ac3ec25f8
+0x7a3b919fcc[libmrcds.so@0x4bfcc]		bic	x11, x12, x11	X12=0x0 X11=0x20
+0x7a3b919fd0[libmrcds.so@0x4bfd0]		str	x11, [x10]	X11=0x0 X10=0x7ac3ec25f8
+0x7a3b919fd4[libmrcds.so@0x4bfd4]		add	x11, x0, #8	X0=0x7ac3ec25f8
+0x7a3b919fd8[libmrcds.so@0x4bfd8]		cmp	w8, #63	W8=0x5
+0x7a3b919fdc[libmrcds.so@0x4bfdc]		csel	x0, x11, x0, eq	X11=0x7ac3ec2600 X0=0x7ac3ec25f8
+0x7a3b919fe0[libmrcds.so@0x4bfe0]		csinc	w8, wzr, w8, eq	W8=0x5
+0x7a3b919fe4[libmrcds.so@0x4bfe4]		csel	x10, x11, x10, eq	X11=0x7ac3ec2600 X10=0x7ac3ec25f8
+0x7a3b919fe8[libmrcds.so@0x4bfe8]		subs	x19, x19, #1	X19=0x1
+0x7a3b919fec[libmrcds.so@0x4bfec]		add	x20, x20, #1	X20=0x7a384001c5
+0x7a3b919ff0[libmrcds.so@0x4bff0]		b.eq	#28	
+0x7a3b91a00c[libmrcds.so@0x4c00c]		ldp	x29, x30, [sp, #48]	SP=0x7a38400160
+0x7a3b91a010[libmrcds.so@0x4c010]		ldp	x20, x19, [sp, #32]	SP=0x7a38400160
+0x7a3b91a014[libmrcds.so@0x4c014]		ldp	x22, x21, [sp, #16]	SP=0x7a38400160
+0x7a3b91a018[libmrcds.so@0x4c018]		ldr	x23, [sp], #64	SP=0x7a38400160
+0x7a3b91a01c[libmrcds.so@0x4c01c]		ret	LR=0x7a3b919e08
+0x7a3b919e08[libmrcds.so@0x4be08]		ldr	w9, [x20]	X20=0x7a38400210
+0x7a3b919e0c[libmrcds.so@0x4be0c]		mov	w8, #31	
+0x7a3b919e10[libmrcds.so@0x4be10]		mov	w22, #1	
+0x7a3b919e14[libmrcds.so@0x4be14]		stp	xzr, xzr, [sp, #40]	SP=0x7a384001a0
+0x7a3b919e18[libmrcds.so@0x4be18]		orr	w19, w9, w19	W9=0x2012036 W19=0x11
+0x7a3b919e1c[libmrcds.so@0x4be1c]		str	xzr, [sp, #32]	SP=0x7a384001a0
+0x7a3b919e20[libmrcds.so@0x4be20]		str	w8, [sp, #4]	W8=0x1f SP=0x7a384001a0
+0x7a3b919e24[libmrcds.so@0x4be24]		b	#32	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0x1f
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x80000000
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0x1f
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0x1f
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0x1e SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0x1e
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x40000000
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e54[libmrcds.so@0x4be54]		ldp	x9, x10, [sp, #40]	SP=0x7a384001a0
+0x7a3b919e58[libmrcds.so@0x4be58]		cmp	x9, x10	X9=0x0 X10=0x0
+0x7a3b919e5c[libmrcds.so@0x4be5c]		b.lo	#-52	
+0x7a3b919e60[libmrcds.so@0x4be60]		add	x0, sp, #32	SP=0x7a384001a0
+0x7a3b919e64[libmrcds.so@0x4be64]		add	x1, sp, #4	SP=0x7a384001a0
+0x7a3b919e68[libmrcds.so@0x4be68]		bl	#-23944	SP=0x7a384001a0
+0x7a3b9140e0[libmrcds.so@0x460e0]		adrp	x16, #593920	
+0x7a3b9140e4[libmrcds.so@0x460e4]		ldr	x17, [x16, #2040]	X16=0x7a3b9a5000
+0x7a3b9140e8[libmrcds.so@0x460e8]		add	x16, x16, #2040	X16=0x7a3b9a5000
+0x7a3b9140ec[libmrcds.so@0x460ec]		br	x17	X17=0x7a3b91a590
+0x7a3b91a590[libmrcds.so@0x4c590]		str	x25, [sp, #-80]!	X25=0x0 SP=0x7a384001a0
+0x7a3b91a594[libmrcds.so@0x4c594]		stp	x24, x23, [sp, #16]	X24=0x0 X23=0x0 SP=0x7a38400150
+0x7a3b91a598[libmrcds.so@0x4c598]		stp	x22, x21, [sp, #32]	X22=0x1 X21=0x7ac4f98020 SP=0x7a38400150
+0x7a3b91a59c[libmrcds.so@0x4c59c]		stp	x20, x19, [sp, #48]	X20=0x7a38400210 X19=0x2012037 SP=0x7a38400150
+0x7a3b91a5a0[libmrcds.so@0x4c5a0]		stp	x29, x30, [sp, #64]	FP=0x7a38400200 LR=0x7a3b919e6c SP=0x7a38400150
+0x7a3b91a5a4[libmrcds.so@0x4c5a4]		add	x29, sp, #64	SP=0x7a38400150
+0x7a3b91a5a8[libmrcds.so@0x4c5a8]		ldp	x20, x8, [x0]	X0=0x7a384001c0
+0x7a3b91a5ac[libmrcds.so@0x4c5ac]		mov	x19, x0	X0=0x7a384001c0
+0x7a3b91a5b0[libmrcds.so@0x4c5b0]		sub	x21, x8, x20	X8=0x0 X20=0x0
+0x7a3b91a5b4[libmrcds.so@0x4c5b4]		asr	x24, x21, #2	X21=0x0
+0x7a3b91a5b8[libmrcds.so@0x4c5b8]		add	x8, x24, #1	X24=0x0
+0x7a3b91a5bc[libmrcds.so@0x4c5bc]		lsr	x9, x8, #62	X8=0x1
+0x7a3b91a5c0[libmrcds.so@0x4c5c0]		cbnz	x9, #192	X9=0x0
+0x7a3b91a5c4[libmrcds.so@0x4c5c4]		ldr	x9, [x19, #16]	X19=0x7a384001c0
+0x7a3b91a5c8[libmrcds.so@0x4c5c8]		mov	x10, #2305843009213693950	
+0x7a3b91a5cc[libmrcds.so@0x4c5cc]		mov	x22, x1	X1=0x7a384001a4
+0x7a3b91a5d0[libmrcds.so@0x4c5d0]		sub	x9, x9, x20	X9=0x0 X20=0x0
+0x7a3b91a5d4[libmrcds.so@0x4c5d4]		cmp	x10, x9, asr #2	X10=0x1ffffffffffffffe X9=0x0
+0x7a3b91a5d8[libmrcds.so@0x4c5d8]		b.lo	#40	
+0x7a3b91a5dc[libmrcds.so@0x4c5dc]		asr	x9, x9, #1	X9=0x0
+0x7a3b91a5e0[libmrcds.so@0x4c5e0]		cmp	x9, x8	X9=0x0 X8=0x1
+0x7a3b91a5e4[libmrcds.so@0x4c5e4]		csel	x25, x8, x9, lo	X8=0x1 X9=0x0
+0x7a3b91a5e8[libmrcds.so@0x4c5e8]		cbz	x25, #144	X25=0x1
+0x7a3b91a5ec[libmrcds.so@0x4c5ec]		lsr	x8, x25, #62	X25=0x1
+0x7a3b91a5f0[libmrcds.so@0x4c5f0]		cbz	x8, #20	X8=0x0
+0x7a3b91a604[libmrcds.so@0x4c604]		lsl	x0, x25, #2	X25=0x1
+0x7a3b91a608[libmrcds.so@0x4c608]		bl	#-25816	SP=0x7a38400150
+0x7a3b914130[libmrcds.so@0x46130]		adrp	x16, #593920	
+0x7a3b914134[libmrcds.so@0x46134]		ldr	x17, [x16, #2080]	X16=0x7a3b9a5000
+0x7a3b914138[libmrcds.so@0x46138]		add	x16, x16, #2080	X16=0x7a3b9a5000
+0x7a3b91413c[libmrcds.so@0x4613c]		br	x17	X17=0x7a3b95c864
+0x7a3b95c864[libmrcds.so@0x8e864]		str	x19, [sp, #-32]!	X19=0x7a384001c0 SP=0x7a38400150
+0x7a3b95c868[libmrcds.so@0x8e868]		stp	x29, x30, [sp, #16]	FP=0x7a38400190 LR=0x7a3b91a60c SP=0x7a38400130
+0x7a3b95c86c[libmrcds.so@0x8e86c]		add	x29, sp, #16	SP=0x7a38400130
+0x7a3b95c870[libmrcds.so@0x8e870]		cmp	x0, #0	X0=0x4
+0x7a3b95c874[libmrcds.so@0x8e874]		csinc	x19, x0, xzr, ne	X0=0x4
+0x7a3b95c878[libmrcds.so@0x8e878]		mov	x0, x19	X19=0x4
+0x7a3b95c87c[libmrcds.so@0x8e87c]		bl	#-300860	SP=0x7a38400130
+0x7a3b913140[libmrcds.so@0x45140]		adrp	x16, #598016	
+0x7a3b913144[libmrcds.so@0x45144]		ldr	x17, [x16, #40]	X16=0x7a3b9a5000
+0x7a3b913148[libmrcds.so@0x45148]		add	x16, x16, #40	X16=0x7a3b9a5000
+0x7a3b91314c[libmrcds.so@0x4514c]		br	x17	X17=0x7b5899a32c
+ -> transfer call to 0x7b5899a32c (libc.so@0x4032c)
+ <- transfer return from 0x7b5899a32c (libc.so@0x4032c)
+0x7a3b95c880[libmrcds.so@0x8e880]		cbnz	x0, #20	X0=0x7ac3ec2630
+0x7a3b95c894[libmrcds.so@0x8e894]		ldp	x29, x30, [sp, #16]	SP=0x7a38400130
+0x7a3b95c898[libmrcds.so@0x8e898]		ldr	x19, [sp], #32	SP=0x7a38400130
+0x7a3b95c89c[libmrcds.so@0x8e89c]		ret	LR=0x7a3b91a60c
+0x7a3b91a60c[libmrcds.so@0x4c60c]		mov	x23, x0	X0=0x7ac3ec2630
+0x7a3b91a610[libmrcds.so@0x4c610]		ldr	w8, [x22]	X22=0x7a384001a4
+0x7a3b91a614[libmrcds.so@0x4c614]		add	x24, x23, x24, lsl #2	X23=0x7ac3ec2630 X24=0x0
+0x7a3b91a618[libmrcds.so@0x4c618]		add	x22, x23, x25, lsl #2	X23=0x7ac3ec2630 X25=0x1
+0x7a3b91a61c[libmrcds.so@0x4c61c]		cmp	x21, #1	X21=0x0
+0x7a3b91a620[libmrcds.so@0x4c620]		str	w8, [x24], #4	W8=0x1e X24=0x7ac3ec2630
+0x7a3b91a624[libmrcds.so@0x4c624]		b.lt	#20	
+0x7a3b91a638[libmrcds.so@0x4c638]		stp	x23, x24, [x19]	X23=0x7ac3ec2630 X24=0x7ac3ec2634 X19=0x7a384001c0
+0x7a3b91a63c[libmrcds.so@0x4c63c]		str	x22, [x19, #16]	X22=0x7ac3ec2634 X19=0x7a384001c0
+0x7a3b91a640[libmrcds.so@0x4c640]		cbz	x20, #32	X20=0x0
+0x7a3b91a660[libmrcds.so@0x4c660]		ldp	x29, x30, [sp, #64]	SP=0x7a38400150
+0x7a3b91a664[libmrcds.so@0x4c664]		ldp	x20, x19, [sp, #48]	SP=0x7a38400150
+0x7a3b91a668[libmrcds.so@0x4c668]		ldp	x22, x21, [sp, #32]	SP=0x7a38400150
+0x7a3b91a66c[libmrcds.so@0x4c66c]		ldp	x24, x23, [sp, #16]	SP=0x7a38400150
+0x7a3b91a670[libmrcds.so@0x4c670]		ldr	x25, [sp], #80	SP=0x7a38400150
+0x7a3b91a674[libmrcds.so@0x4c674]		ret	LR=0x7a3b919e6c
+0x7a3b919e6c[libmrcds.so@0x4be6c]		b	#-60	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0x1e
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0x1e
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0x1d SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0x1d
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x20000000
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0x1d
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0x1d
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0x1c SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0x1c
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x10000000
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0x1c
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0x1c
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0x1b SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0x1b
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x8000000
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0x1b
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0x1b
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0x1a SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0x1a
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x4000000
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0x1a
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0x1a
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0x19 SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0x19
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x2000000
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0x19
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0x19
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0x18 SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0x18
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x1000000
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0x18
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0x18
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0x17 SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0x17
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x800000
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e54[libmrcds.so@0x4be54]		ldp	x9, x10, [sp, #40]	SP=0x7a384001a0
+0x7a3b919e58[libmrcds.so@0x4be58]		cmp	x9, x10	X9=0x7ac3ec2634 X10=0x7ac3ec2634
+0x7a3b919e5c[libmrcds.so@0x4be5c]		b.lo	#-52	
+0x7a3b919e60[libmrcds.so@0x4be60]		add	x0, sp, #32	SP=0x7a384001a0
+0x7a3b919e64[libmrcds.so@0x4be64]		add	x1, sp, #4	SP=0x7a384001a0
+0x7a3b919e68[libmrcds.so@0x4be68]		bl	#-23944	SP=0x7a384001a0
+0x7a3b9140e0[libmrcds.so@0x460e0]		adrp	x16, #593920	
+0x7a3b9140e4[libmrcds.so@0x460e4]		ldr	x17, [x16, #2040]	X16=0x7a3b9a5000
+0x7a3b9140e8[libmrcds.so@0x460e8]		add	x16, x16, #2040	X16=0x7a3b9a5000
+0x7a3b9140ec[libmrcds.so@0x460ec]		br	x17	X17=0x7a3b91a590
+0x7a3b91a590[libmrcds.so@0x4c590]		str	x25, [sp, #-80]!	X25=0x0 SP=0x7a384001a0
+0x7a3b91a594[libmrcds.so@0x4c594]		stp	x24, x23, [sp, #16]	X24=0x0 X23=0x0 SP=0x7a38400150
+0x7a3b91a598[libmrcds.so@0x4c598]		stp	x22, x21, [sp, #32]	X22=0x1 X21=0x7ac4f98020 SP=0x7a38400150
+0x7a3b91a59c[libmrcds.so@0x4c59c]		stp	x20, x19, [sp, #48]	X20=0x7a38400210 X19=0x2012037 SP=0x7a38400150
+0x7a3b91a5a0[libmrcds.so@0x4c5a0]		stp	x29, x30, [sp, #64]	FP=0x7a38400200 LR=0x7a3b919e6c SP=0x7a38400150
+0x7a3b91a5a4[libmrcds.so@0x4c5a4]		add	x29, sp, #64	SP=0x7a38400150
+0x7a3b91a5a8[libmrcds.so@0x4c5a8]		ldp	x20, x8, [x0]	X0=0x7a384001c0
+0x7a3b91a5ac[libmrcds.so@0x4c5ac]		mov	x19, x0	X0=0x7a384001c0
+0x7a3b91a5b0[libmrcds.so@0x4c5b0]		sub	x21, x8, x20	X8=0x7ac3ec2634 X20=0x7ac3ec2630
+0x7a3b91a5b4[libmrcds.so@0x4c5b4]		asr	x24, x21, #2	X21=0x4
+0x7a3b91a5b8[libmrcds.so@0x4c5b8]		add	x8, x24, #1	X24=0x1
+0x7a3b91a5bc[libmrcds.so@0x4c5bc]		lsr	x9, x8, #62	X8=0x2
+0x7a3b91a5c0[libmrcds.so@0x4c5c0]		cbnz	x9, #192	X9=0x0
+0x7a3b91a5c4[libmrcds.so@0x4c5c4]		ldr	x9, [x19, #16]	X19=0x7a384001c0
+0x7a3b91a5c8[libmrcds.so@0x4c5c8]		mov	x10, #2305843009213693950	
+0x7a3b91a5cc[libmrcds.so@0x4c5cc]		mov	x22, x1	X1=0x7a384001a4
+0x7a3b91a5d0[libmrcds.so@0x4c5d0]		sub	x9, x9, x20	X9=0x7ac3ec2634 X20=0x7ac3ec2630
+0x7a3b91a5d4[libmrcds.so@0x4c5d4]		cmp	x10, x9, asr #2	X10=0x1ffffffffffffffe X9=0x4
+0x7a3b91a5d8[libmrcds.so@0x4c5d8]		b.lo	#40	
+0x7a3b91a5dc[libmrcds.so@0x4c5dc]		asr	x9, x9, #1	X9=0x4
+0x7a3b91a5e0[libmrcds.so@0x4c5e0]		cmp	x9, x8	X9=0x2 X8=0x2
+0x7a3b91a5e4[libmrcds.so@0x4c5e4]		csel	x25, x8, x9, lo	X8=0x2 X9=0x2
+0x7a3b91a5e8[libmrcds.so@0x4c5e8]		cbz	x25, #144	X25=0x2
+0x7a3b91a5ec[libmrcds.so@0x4c5ec]		lsr	x8, x25, #62	X25=0x2
+0x7a3b91a5f0[libmrcds.so@0x4c5f0]		cbz	x8, #20	X8=0x0
+0x7a3b91a604[libmrcds.so@0x4c604]		lsl	x0, x25, #2	X25=0x2
+0x7a3b91a608[libmrcds.so@0x4c608]		bl	#-25816	SP=0x7a38400150
+0x7a3b914130[libmrcds.so@0x46130]		adrp	x16, #593920	
+0x7a3b914134[libmrcds.so@0x46134]		ldr	x17, [x16, #2080]	X16=0x7a3b9a5000
+0x7a3b914138[libmrcds.so@0x46138]		add	x16, x16, #2080	X16=0x7a3b9a5000
+0x7a3b91413c[libmrcds.so@0x4613c]		br	x17	X17=0x7a3b95c864
+0x7a3b95c864[libmrcds.so@0x8e864]		str	x19, [sp, #-32]!	X19=0x7a384001c0 SP=0x7a38400150
+0x7a3b95c868[libmrcds.so@0x8e868]		stp	x29, x30, [sp, #16]	FP=0x7a38400190 LR=0x7a3b91a60c SP=0x7a38400130
+0x7a3b95c86c[libmrcds.so@0x8e86c]		add	x29, sp, #16	SP=0x7a38400130
+0x7a3b95c870[libmrcds.so@0x8e870]		cmp	x0, #0	X0=0x8
+0x7a3b95c874[libmrcds.so@0x8e874]		csinc	x19, x0, xzr, ne	X0=0x8
+0x7a3b95c878[libmrcds.so@0x8e878]		mov	x0, x19	X19=0x8
+0x7a3b95c87c[libmrcds.so@0x8e87c]		bl	#-300860	SP=0x7a38400130
+0x7a3b913140[libmrcds.so@0x45140]		adrp	x16, #598016	
+0x7a3b913144[libmrcds.so@0x45144]		ldr	x17, [x16, #40]	X16=0x7a3b9a5000
+0x7a3b913148[libmrcds.so@0x45148]		add	x16, x16, #40	X16=0x7a3b9a5000
+0x7a3b91314c[libmrcds.so@0x4514c]		br	x17	X17=0x7b5899a32c
+ -> transfer call to 0x7b5899a32c (libc.so@0x4032c)
+ <- transfer return from 0x7b5899a32c (libc.so@0x4032c)
+0x7a3b95c880[libmrcds.so@0x8e880]		cbnz	x0, #20	X0=0x7ac3ec2738
+0x7a3b95c894[libmrcds.so@0x8e894]		ldp	x29, x30, [sp, #16]	SP=0x7a38400130
+0x7a3b95c898[libmrcds.so@0x8e898]		ldr	x19, [sp], #32	SP=0x7a38400130
+0x7a3b95c89c[libmrcds.so@0x8e89c]		ret	LR=0x7a3b91a60c
+0x7a3b91a60c[libmrcds.so@0x4c60c]		mov	x23, x0	X0=0x7ac3ec2738
+0x7a3b91a610[libmrcds.so@0x4c610]		ldr	w8, [x22]	X22=0x7a384001a4
+0x7a3b91a614[libmrcds.so@0x4c614]		add	x24, x23, x24, lsl #2	X23=0x7ac3ec2738 X24=0x1
+0x7a3b91a618[libmrcds.so@0x4c618]		add	x22, x23, x25, lsl #2	X23=0x7ac3ec2738 X25=0x2
+0x7a3b91a61c[libmrcds.so@0x4c61c]		cmp	x21, #1	X21=0x4
+0x7a3b91a620[libmrcds.so@0x4c620]		str	w8, [x24], #4	W8=0x17 X24=0x7ac3ec273c
+0x7a3b91a624[libmrcds.so@0x4c624]		b.lt	#20	
+0x7a3b91a628[libmrcds.so@0x4c628]		mov	x0, x23	X23=0x7ac3ec2738
+0x7a3b91a62c[libmrcds.so@0x4c62c]		mov	x1, x20	X20=0x7ac3ec2630
+0x7a3b91a630[libmrcds.so@0x4c630]		mov	x2, x21	X21=0x4
+0x7a3b91a634[libmrcds.so@0x4c634]		bl	#-31412	SP=0x7a38400150
+0x7a3b912b80[libmrcds.so@0x44b80]		adrp	x16, #598016	
+0x7a3b912b84[libmrcds.so@0x44b84]		ldr	x17, [x16, #3400]	X16=0x7a3b9a4000
+0x7a3b912b88[libmrcds.so@0x44b88]		add	x16, x16, #3400	X16=0x7a3b9a4000
+0x7a3b912b8c[libmrcds.so@0x44b8c]		br	x17	X17=0x7b589d8280
+ -> transfer call to 0x7b589d8280 (libc.so@0x7e280)
+ <- transfer return from 0x7b589d8280 (libc.so@0x7e280)
+0x7a3b91a638[libmrcds.so@0x4c638]		stp	x23, x24, [x19]	X23=0x7ac3ec2738 X24=0x7ac3ec2740 X19=0x7a384001c0
+0x7a3b91a63c[libmrcds.so@0x4c63c]		str	x22, [x19, #16]	X22=0x7ac3ec2740 X19=0x7a384001c0
+0x7a3b91a640[libmrcds.so@0x4c640]		cbz	x20, #32	X20=0x7ac3ec2630
+0x7a3b91a644[libmrcds.so@0x4c644]		mov	x0, x20	X20=0x7ac3ec2630
+0x7a3b91a648[libmrcds.so@0x4c648]		ldp	x29, x30, [sp, #64]	SP=0x7a38400150
+0x7a3b91a64c[libmrcds.so@0x4c64c]		ldp	x20, x19, [sp, #48]	SP=0x7a38400150
+0x7a3b91a650[libmrcds.so@0x4c650]		ldp	x22, x21, [sp, #32]	SP=0x7a38400150
+0x7a3b91a654[libmrcds.so@0x4c654]		ldp	x24, x23, [sp, #16]	SP=0x7a38400150
+0x7a3b91a658[libmrcds.so@0x4c658]		ldr	x25, [sp], #80	SP=0x7a38400150
+0x7a3b91a65c[libmrcds.so@0x4c65c]		b	#-31020	
+0x7a3b912d30[libmrcds.so@0x44d30]		adrp	x16, #598016	
+0x7a3b912d34[libmrcds.so@0x44d34]		ldr	x17, [x16, #3616]	X16=0x7a3b9a4000
+0x7a3b912d38[libmrcds.so@0x44d38]		add	x16, x16, #3616	X16=0x7a3b9a4000
+0x7a3b912d3c[libmrcds.so@0x44d3c]		br	x17	X17=0x7a3b95c924
+0x7a3b95c924[libmrcds.so@0x8e924]		b	#-301236	
+0x7a3b913070[libmrcds.so@0x45070]		adrp	x16, #593920	
+0x7a3b913074[libmrcds.so@0x45074]		ldr	x17, [x16, #4032]	X16=0x7a3b9a4000
+0x7a3b913078[libmrcds.so@0x45078]		add	x16, x16, #4032	X16=0x7a3b9a4000
+0x7a3b91307c[libmrcds.so@0x4507c]		br	x17	X17=0x7b5899a2bc
+ -> transfer call to 0x7b5899a2bc (libc.so@0x402bc)
+ <- transfer return from 0x7b5899a2bc (libc.so@0x402bc)
+0x7a3b919e6c[libmrcds.so@0x4be6c]		b	#-60	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0x17
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0x17
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0x16 SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0x16
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x400000
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0x16
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0x16
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0x15 SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0x15
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x200000
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0x15
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0x15
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0x14 SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0x14
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x100000
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0x14
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0x14
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0x13 SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0x13
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x80000
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0x13
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0x13
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0x12 SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0x12
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x40000
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e54[libmrcds.so@0x4be54]		ldp	x9, x10, [sp, #40]	SP=0x7a384001a0
+0x7a3b919e58[libmrcds.so@0x4be58]		cmp	x9, x10	X9=0x7ac3ec2740 X10=0x7ac3ec2740
+0x7a3b919e5c[libmrcds.so@0x4be5c]		b.lo	#-52	
+0x7a3b919e60[libmrcds.so@0x4be60]		add	x0, sp, #32	SP=0x7a384001a0
+0x7a3b919e64[libmrcds.so@0x4be64]		add	x1, sp, #4	SP=0x7a384001a0
+0x7a3b919e68[libmrcds.so@0x4be68]		bl	#-23944	SP=0x7a384001a0
+0x7a3b9140e0[libmrcds.so@0x460e0]		adrp	x16, #593920	
+0x7a3b9140e4[libmrcds.so@0x460e4]		ldr	x17, [x16, #2040]	X16=0x7a3b9a5000
+0x7a3b9140e8[libmrcds.so@0x460e8]		add	x16, x16, #2040	X16=0x7a3b9a5000
+0x7a3b9140ec[libmrcds.so@0x460ec]		br	x17	X17=0x7a3b91a590
+0x7a3b91a590[libmrcds.so@0x4c590]		str	x25, [sp, #-80]!	X25=0x0 SP=0x7a384001a0
+0x7a3b91a594[libmrcds.so@0x4c594]		stp	x24, x23, [sp, #16]	X24=0x0 X23=0x0 SP=0x7a38400150
+0x7a3b91a598[libmrcds.so@0x4c598]		stp	x22, x21, [sp, #32]	X22=0x1 X21=0x7ac4f98020 SP=0x7a38400150
+0x7a3b91a59c[libmrcds.so@0x4c59c]		stp	x20, x19, [sp, #48]	X20=0x7a38400210 X19=0x2012037 SP=0x7a38400150
+0x7a3b91a5a0[libmrcds.so@0x4c5a0]		stp	x29, x30, [sp, #64]	FP=0x7a38400200 LR=0x7a3b919e6c SP=0x7a38400150
+0x7a3b91a5a4[libmrcds.so@0x4c5a4]		add	x29, sp, #64	SP=0x7a38400150
+0x7a3b91a5a8[libmrcds.so@0x4c5a8]		ldp	x20, x8, [x0]	X0=0x7a384001c0
+0x7a3b91a5ac[libmrcds.so@0x4c5ac]		mov	x19, x0	X0=0x7a384001c0
+0x7a3b91a5b0[libmrcds.so@0x4c5b0]		sub	x21, x8, x20	X8=0x7ac3ec2740 X20=0x7ac3ec2738
+0x7a3b91a5b4[libmrcds.so@0x4c5b4]		asr	x24, x21, #2	X21=0x8
+0x7a3b91a5b8[libmrcds.so@0x4c5b8]		add	x8, x24, #1	X24=0x2
+0x7a3b91a5bc[libmrcds.so@0x4c5bc]		lsr	x9, x8, #62	X8=0x3
+0x7a3b91a5c0[libmrcds.so@0x4c5c0]		cbnz	x9, #192	X9=0x0
+0x7a3b91a5c4[libmrcds.so@0x4c5c4]		ldr	x9, [x19, #16]	X19=0x7a384001c0
+0x7a3b91a5c8[libmrcds.so@0x4c5c8]		mov	x10, #2305843009213693950	
+0x7a3b91a5cc[libmrcds.so@0x4c5cc]		mov	x22, x1	X1=0x7a384001a4
+0x7a3b91a5d0[libmrcds.so@0x4c5d0]		sub	x9, x9, x20	X9=0x7ac3ec2740 X20=0x7ac3ec2738
+0x7a3b91a5d4[libmrcds.so@0x4c5d4]		cmp	x10, x9, asr #2	X10=0x1ffffffffffffffe X9=0x8
+0x7a3b91a5d8[libmrcds.so@0x4c5d8]		b.lo	#40	
+0x7a3b91a5dc[libmrcds.so@0x4c5dc]		asr	x9, x9, #1	X9=0x8
+0x7a3b91a5e0[libmrcds.so@0x4c5e0]		cmp	x9, x8	X9=0x4 X8=0x3
+0x7a3b91a5e4[libmrcds.so@0x4c5e4]		csel	x25, x8, x9, lo	X8=0x3 X9=0x4
+0x7a3b91a5e8[libmrcds.so@0x4c5e8]		cbz	x25, #144	X25=0x4
+0x7a3b91a5ec[libmrcds.so@0x4c5ec]		lsr	x8, x25, #62	X25=0x4
+0x7a3b91a5f0[libmrcds.so@0x4c5f0]		cbz	x8, #20	X8=0x0
+0x7a3b91a604[libmrcds.so@0x4c604]		lsl	x0, x25, #2	X25=0x4
+0x7a3b91a608[libmrcds.so@0x4c608]		bl	#-25816	SP=0x7a38400150
+0x7a3b914130[libmrcds.so@0x46130]		adrp	x16, #593920	
+0x7a3b914134[libmrcds.so@0x46134]		ldr	x17, [x16, #2080]	X16=0x7a3b9a5000
+0x7a3b914138[libmrcds.so@0x46138]		add	x16, x16, #2080	X16=0x7a3b9a5000
+0x7a3b91413c[libmrcds.so@0x4613c]		br	x17	X17=0x7a3b95c864
+0x7a3b95c864[libmrcds.so@0x8e864]		str	x19, [sp, #-32]!	X19=0x7a384001c0 SP=0x7a38400150
+0x7a3b95c868[libmrcds.so@0x8e868]		stp	x29, x30, [sp, #16]	FP=0x7a38400190 LR=0x7a3b91a60c SP=0x7a38400130
+0x7a3b95c86c[libmrcds.so@0x8e86c]		add	x29, sp, #16	SP=0x7a38400130
+0x7a3b95c870[libmrcds.so@0x8e870]		cmp	x0, #0	X0=0x10
+0x7a3b95c874[libmrcds.so@0x8e874]		csinc	x19, x0, xzr, ne	X0=0x10
+0x7a3b95c878[libmrcds.so@0x8e878]		mov	x0, x19	X19=0x10
+0x7a3b95c87c[libmrcds.so@0x8e87c]		bl	#-300860	SP=0x7a38400130
+0x7a3b913140[libmrcds.so@0x45140]		adrp	x16, #598016	
+0x7a3b913144[libmrcds.so@0x45144]		ldr	x17, [x16, #40]	X16=0x7a3b9a5000
+0x7a3b913148[libmrcds.so@0x45148]		add	x16, x16, #40	X16=0x7a3b9a5000
+0x7a3b91314c[libmrcds.so@0x4514c]		br	x17	X17=0x7b5899a32c
+ -> transfer call to 0x7b5899a32c (libc.so@0x4032c)
+ <- transfer return from 0x7b5899a32c (libc.so@0x4032c)
+0x7a3b95c880[libmrcds.so@0x8e880]		cbnz	x0, #20	X0=0x7a499904b0
+0x7a3b95c894[libmrcds.so@0x8e894]		ldp	x29, x30, [sp, #16]	SP=0x7a38400130
+0x7a3b95c898[libmrcds.so@0x8e898]		ldr	x19, [sp], #32	SP=0x7a38400130
+0x7a3b95c89c[libmrcds.so@0x8e89c]		ret	LR=0x7a3b91a60c
+0x7a3b91a60c[libmrcds.so@0x4c60c]		mov	x23, x0	X0=0x7a499904b0
+0x7a3b91a610[libmrcds.so@0x4c610]		ldr	w8, [x22]	X22=0x7a384001a4
+0x7a3b91a614[libmrcds.so@0x4c614]		add	x24, x23, x24, lsl #2	X23=0x7a499904b0 X24=0x2
+0x7a3b91a618[libmrcds.so@0x4c618]		add	x22, x23, x25, lsl #2	X23=0x7a499904b0 X25=0x4
+0x7a3b91a61c[libmrcds.so@0x4c61c]		cmp	x21, #1	X21=0x8
+0x7a3b91a620[libmrcds.so@0x4c620]		str	w8, [x24], #4	W8=0x12 X24=0x7a499904b8
+0x7a3b91a624[libmrcds.so@0x4c624]		b.lt	#20	
+0x7a3b91a628[libmrcds.so@0x4c628]		mov	x0, x23	X23=0x7a499904b0
+0x7a3b91a62c[libmrcds.so@0x4c62c]		mov	x1, x20	X20=0x7ac3ec2738
+0x7a3b91a630[libmrcds.so@0x4c630]		mov	x2, x21	X21=0x8
+0x7a3b91a634[libmrcds.so@0x4c634]		bl	#-31412	SP=0x7a38400150
+0x7a3b912b80[libmrcds.so@0x44b80]		adrp	x16, #598016	
+0x7a3b912b84[libmrcds.so@0x44b84]		ldr	x17, [x16, #3400]	X16=0x7a3b9a4000
+0x7a3b912b88[libmrcds.so@0x44b88]		add	x16, x16, #3400	X16=0x7a3b9a4000
+0x7a3b912b8c[libmrcds.so@0x44b8c]		br	x17	X17=0x7b589d8280
+ -> transfer call to 0x7b589d8280 (libc.so@0x7e280)
+ <- transfer return from 0x7b589d8280 (libc.so@0x7e280)
+0x7a3b91a638[libmrcds.so@0x4c638]		stp	x23, x24, [x19]	X23=0x7a499904b0 X24=0x7a499904bc X19=0x7a384001c0
+0x7a3b91a63c[libmrcds.so@0x4c63c]		str	x22, [x19, #16]	X22=0x7a499904c0 X19=0x7a384001c0
+0x7a3b91a640[libmrcds.so@0x4c640]		cbz	x20, #32	X20=0x7ac3ec2738
+0x7a3b91a644[libmrcds.so@0x4c644]		mov	x0, x20	X20=0x7ac3ec2738
+0x7a3b91a648[libmrcds.so@0x4c648]		ldp	x29, x30, [sp, #64]	SP=0x7a38400150
+0x7a3b91a64c[libmrcds.so@0x4c64c]		ldp	x20, x19, [sp, #48]	SP=0x7a38400150
+0x7a3b91a650[libmrcds.so@0x4c650]		ldp	x22, x21, [sp, #32]	SP=0x7a38400150
+0x7a3b91a654[libmrcds.so@0x4c654]		ldp	x24, x23, [sp, #16]	SP=0x7a38400150
+0x7a3b91a658[libmrcds.so@0x4c658]		ldr	x25, [sp], #80	SP=0x7a38400150
+0x7a3b91a65c[libmrcds.so@0x4c65c]		b	#-31020	
+0x7a3b912d30[libmrcds.so@0x44d30]		adrp	x16, #598016	
+0x7a3b912d34[libmrcds.so@0x44d34]		ldr	x17, [x16, #3616]	X16=0x7a3b9a4000
+0x7a3b912d38[libmrcds.so@0x44d38]		add	x16, x16, #3616	X16=0x7a3b9a4000
+0x7a3b912d3c[libmrcds.so@0x44d3c]		br	x17	X17=0x7a3b95c924
+0x7a3b95c924[libmrcds.so@0x8e924]		b	#-301236	
+0x7a3b913070[libmrcds.so@0x45070]		adrp	x16, #593920	
+0x7a3b913074[libmrcds.so@0x45074]		ldr	x17, [x16, #4032]	X16=0x7a3b9a4000
+0x7a3b913078[libmrcds.so@0x45078]		add	x16, x16, #4032	X16=0x7a3b9a4000
+0x7a3b91307c[libmrcds.so@0x4507c]		br	x17	X17=0x7b5899a2bc
+ -> transfer call to 0x7b5899a2bc (libc.so@0x402bc)
+ <- transfer return from 0x7b5899a2bc (libc.so@0x402bc)
+0x7a3b919e6c[libmrcds.so@0x4be6c]		b	#-60	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0x12
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0x12
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0x11 SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0x11
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x20000
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0x11
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0x11
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0x10 SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0x10
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x10000
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0x10
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0x10
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0xf SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0xf
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x8000
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0xf
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0xf
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0xe SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0xe
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x4000
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0xe
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0xe
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0xd SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0xd
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x2000
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0xd
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0xd
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0xc SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0xc
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x1000
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e54[libmrcds.so@0x4be54]		ldp	x9, x10, [sp, #40]	SP=0x7a384001a0
+0x7a3b919e58[libmrcds.so@0x4be58]		cmp	x9, x10	X9=0x7a499904bc X10=0x7a499904c0
+0x7a3b919e5c[libmrcds.so@0x4be5c]		b.lo	#-52	
+0x7a3b919e28[libmrcds.so@0x4be28]		str	w8, [x9], #4	W8=0xc X9=0x7a499904bc
+0x7a3b919e2c[libmrcds.so@0x4be2c]		str	x9, [sp, #40]	X9=0x7a499904c0 SP=0x7a384001a0
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0xc
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0xc
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0xb SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0xb
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x800
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0xb
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0xb
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0xa SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0xa
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x400
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0xa
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0xa
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0x9 SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0x9
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x200
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e54[libmrcds.so@0x4be54]		ldp	x9, x10, [sp, #40]	SP=0x7a384001a0
+0x7a3b919e58[libmrcds.so@0x4be58]		cmp	x9, x10	X9=0x7a499904c0 X10=0x7a499904c0
+0x7a3b919e5c[libmrcds.so@0x4be5c]		b.lo	#-52	
+0x7a3b919e60[libmrcds.so@0x4be60]		add	x0, sp, #32	SP=0x7a384001a0
+0x7a3b919e64[libmrcds.so@0x4be64]		add	x1, sp, #4	SP=0x7a384001a0
+0x7a3b919e68[libmrcds.so@0x4be68]		bl	#-23944	SP=0x7a384001a0
+0x7a3b9140e0[libmrcds.so@0x460e0]		adrp	x16, #593920	
+0x7a3b9140e4[libmrcds.so@0x460e4]		ldr	x17, [x16, #2040]	X16=0x7a3b9a5000
+0x7a3b9140e8[libmrcds.so@0x460e8]		add	x16, x16, #2040	X16=0x7a3b9a5000
+0x7a3b9140ec[libmrcds.so@0x460ec]		br	x17	X17=0x7a3b91a590
+0x7a3b91a590[libmrcds.so@0x4c590]		str	x25, [sp, #-80]!	X25=0x0 SP=0x7a384001a0
+0x7a3b91a594[libmrcds.so@0x4c594]		stp	x24, x23, [sp, #16]	X24=0x0 X23=0x0 SP=0x7a38400150
+0x7a3b91a598[libmrcds.so@0x4c598]		stp	x22, x21, [sp, #32]	X22=0x1 X21=0x7ac4f98020 SP=0x7a38400150
+0x7a3b91a59c[libmrcds.so@0x4c59c]		stp	x20, x19, [sp, #48]	X20=0x7a38400210 X19=0x2012037 SP=0x7a38400150
+0x7a3b91a5a0[libmrcds.so@0x4c5a0]		stp	x29, x30, [sp, #64]	FP=0x7a38400200 LR=0x7a3b919e6c SP=0x7a38400150
+0x7a3b91a5a4[libmrcds.so@0x4c5a4]		add	x29, sp, #64	SP=0x7a38400150
+0x7a3b91a5a8[libmrcds.so@0x4c5a8]		ldp	x20, x8, [x0]	X0=0x7a384001c0
+0x7a3b91a5ac[libmrcds.so@0x4c5ac]		mov	x19, x0	X0=0x7a384001c0
+0x7a3b91a5b0[libmrcds.so@0x4c5b0]		sub	x21, x8, x20	X8=0x7a499904c0 X20=0x7a499904b0
+0x7a3b91a5b4[libmrcds.so@0x4c5b4]		asr	x24, x21, #2	X21=0x10
+0x7a3b91a5b8[libmrcds.so@0x4c5b8]		add	x8, x24, #1	X24=0x4
+0x7a3b91a5bc[libmrcds.so@0x4c5bc]		lsr	x9, x8, #62	X8=0x5
+0x7a3b91a5c0[libmrcds.so@0x4c5c0]		cbnz	x9, #192	X9=0x0
+0x7a3b91a5c4[libmrcds.so@0x4c5c4]		ldr	x9, [x19, #16]	X19=0x7a384001c0
+0x7a3b91a5c8[libmrcds.so@0x4c5c8]		mov	x10, #2305843009213693950	
+0x7a3b91a5cc[libmrcds.so@0x4c5cc]		mov	x22, x1	X1=0x7a384001a4
+0x7a3b91a5d0[libmrcds.so@0x4c5d0]		sub	x9, x9, x20	X9=0x7a499904c0 X20=0x7a499904b0
+0x7a3b91a5d4[libmrcds.so@0x4c5d4]		cmp	x10, x9, asr #2	X10=0x1ffffffffffffffe X9=0x10
+0x7a3b91a5d8[libmrcds.so@0x4c5d8]		b.lo	#40	
+0x7a3b91a5dc[libmrcds.so@0x4c5dc]		asr	x9, x9, #1	X9=0x10
+0x7a3b91a5e0[libmrcds.so@0x4c5e0]		cmp	x9, x8	X9=0x8 X8=0x5
+0x7a3b91a5e4[libmrcds.so@0x4c5e4]		csel	x25, x8, x9, lo	X8=0x5 X9=0x8
+0x7a3b91a5e8[libmrcds.so@0x4c5e8]		cbz	x25, #144	X25=0x8
+0x7a3b91a5ec[libmrcds.so@0x4c5ec]		lsr	x8, x25, #62	X25=0x8
+0x7a3b91a5f0[libmrcds.so@0x4c5f0]		cbz	x8, #20	X8=0x0
+0x7a3b91a604[libmrcds.so@0x4c604]		lsl	x0, x25, #2	X25=0x8
+0x7a3b91a608[libmrcds.so@0x4c608]		bl	#-25816	SP=0x7a38400150
+0x7a3b914130[libmrcds.so@0x46130]		adrp	x16, #593920	
+0x7a3b914134[libmrcds.so@0x46134]		ldr	x17, [x16, #2080]	X16=0x7a3b9a5000
+0x7a3b914138[libmrcds.so@0x46138]		add	x16, x16, #2080	X16=0x7a3b9a5000
+0x7a3b91413c[libmrcds.so@0x4613c]		br	x17	X17=0x7a3b95c864
+0x7a3b95c864[libmrcds.so@0x8e864]		str	x19, [sp, #-32]!	X19=0x7a384001c0 SP=0x7a38400150
+0x7a3b95c868[libmrcds.so@0x8e868]		stp	x29, x30, [sp, #16]	FP=0x7a38400190 LR=0x7a3b91a60c SP=0x7a38400130
+0x7a3b95c86c[libmrcds.so@0x8e86c]		add	x29, sp, #16	SP=0x7a38400130
+0x7a3b95c870[libmrcds.so@0x8e870]		cmp	x0, #0	X0=0x20
+0x7a3b95c874[libmrcds.so@0x8e874]		csinc	x19, x0, xzr, ne	X0=0x20
+0x7a3b95c878[libmrcds.so@0x8e878]		mov	x0, x19	X19=0x20
+0x7a3b95c87c[libmrcds.so@0x8e87c]		bl	#-300860	SP=0x7a38400130
+0x7a3b913140[libmrcds.so@0x45140]		adrp	x16, #598016	
+0x7a3b913144[libmrcds.so@0x45144]		ldr	x17, [x16, #40]	X16=0x7a3b9a5000
+0x7a3b913148[libmrcds.so@0x45148]		add	x16, x16, #40	X16=0x7a3b9a5000
+0x7a3b91314c[libmrcds.so@0x4514c]		br	x17	X17=0x7b5899a32c
+ -> transfer call to 0x7b5899a32c (libc.so@0x4032c)
+ <- transfer return from 0x7b5899a32c (libc.so@0x4032c)
+0x7a3b95c880[libmrcds.so@0x8e880]		cbnz	x0, #20	X0=0x7b59742ea0
+0x7a3b95c894[libmrcds.so@0x8e894]		ldp	x29, x30, [sp, #16]	SP=0x7a38400130
+0x7a3b95c898[libmrcds.so@0x8e898]		ldr	x19, [sp], #32	SP=0x7a38400130
+0x7a3b95c89c[libmrcds.so@0x8e89c]		ret	LR=0x7a3b91a60c
+0x7a3b91a60c[libmrcds.so@0x4c60c]		mov	x23, x0	X0=0x7b59742ea0
+0x7a3b91a610[libmrcds.so@0x4c610]		ldr	w8, [x22]	X22=0x7a384001a4
+0x7a3b91a614[libmrcds.so@0x4c614]		add	x24, x23, x24, lsl #2	X23=0x7b59742ea0 X24=0x4
+0x7a3b91a618[libmrcds.so@0x4c618]		add	x22, x23, x25, lsl #2	X23=0x7b59742ea0 X25=0x8
+0x7a3b91a61c[libmrcds.so@0x4c61c]		cmp	x21, #1	X21=0x10
+0x7a3b91a620[libmrcds.so@0x4c620]		str	w8, [x24], #4	W8=0x9 X24=0x7b59742eb0
+0x7a3b91a624[libmrcds.so@0x4c624]		b.lt	#20	
+0x7a3b91a628[libmrcds.so@0x4c628]		mov	x0, x23	X23=0x7b59742ea0
+0x7a3b91a62c[libmrcds.so@0x4c62c]		mov	x1, x20	X20=0x7a499904b0
+0x7a3b91a630[libmrcds.so@0x4c630]		mov	x2, x21	X21=0x10
+0x7a3b91a634[libmrcds.so@0x4c634]		bl	#-31412	SP=0x7a38400150
+0x7a3b912b80[libmrcds.so@0x44b80]		adrp	x16, #598016	
+0x7a3b912b84[libmrcds.so@0x44b84]		ldr	x17, [x16, #3400]	X16=0x7a3b9a4000
+0x7a3b912b88[libmrcds.so@0x44b88]		add	x16, x16, #3400	X16=0x7a3b9a4000
+0x7a3b912b8c[libmrcds.so@0x44b8c]		br	x17	X17=0x7b589d8280
+ -> transfer call to 0x7b589d8280 (libc.so@0x7e280)
+ <- transfer return from 0x7b589d8280 (libc.so@0x7e280)
+0x7a3b91a638[libmrcds.so@0x4c638]		stp	x23, x24, [x19]	X23=0x7b59742ea0 X24=0x7b59742eb4 X19=0x7a384001c0
+0x7a3b91a63c[libmrcds.so@0x4c63c]		str	x22, [x19, #16]	X22=0x7b59742ec0 X19=0x7a384001c0
+0x7a3b91a640[libmrcds.so@0x4c640]		cbz	x20, #32	X20=0x7a499904b0
+0x7a3b91a644[libmrcds.so@0x4c644]		mov	x0, x20	X20=0x7a499904b0
+0x7a3b91a648[libmrcds.so@0x4c648]		ldp	x29, x30, [sp, #64]	SP=0x7a38400150
+0x7a3b91a64c[libmrcds.so@0x4c64c]		ldp	x20, x19, [sp, #48]	SP=0x7a38400150
+0x7a3b91a650[libmrcds.so@0x4c650]		ldp	x22, x21, [sp, #32]	SP=0x7a38400150
+0x7a3b91a654[libmrcds.so@0x4c654]		ldp	x24, x23, [sp, #16]	SP=0x7a38400150
+0x7a3b91a658[libmrcds.so@0x4c658]		ldr	x25, [sp], #80	SP=0x7a38400150
+0x7a3b91a65c[libmrcds.so@0x4c65c]		b	#-31020	
+0x7a3b912d30[libmrcds.so@0x44d30]		adrp	x16, #598016	
+0x7a3b912d34[libmrcds.so@0x44d34]		ldr	x17, [x16, #3616]	X16=0x7a3b9a4000
+0x7a3b912d38[libmrcds.so@0x44d38]		add	x16, x16, #3616	X16=0x7a3b9a4000
+0x7a3b912d3c[libmrcds.so@0x44d3c]		br	x17	X17=0x7a3b95c924
+0x7a3b95c924[libmrcds.so@0x8e924]		b	#-301236	
+0x7a3b913070[libmrcds.so@0x45070]		adrp	x16, #593920	
+0x7a3b913074[libmrcds.so@0x45074]		ldr	x17, [x16, #4032]	X16=0x7a3b9a4000
+0x7a3b913078[libmrcds.so@0x45078]		add	x16, x16, #4032	X16=0x7a3b9a4000
+0x7a3b91307c[libmrcds.so@0x4507c]		br	x17	X17=0x7b5899a2bc
+ -> transfer call to 0x7b5899a2bc (libc.so@0x402bc)
+ <- transfer return from 0x7b5899a2bc (libc.so@0x402bc)
+0x7a3b919e6c[libmrcds.so@0x4be6c]		b	#-60	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0x9
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0x9
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0x8 SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0x8
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x100
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0x8
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0x8
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0x7 SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0x7
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x80
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0x7
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0x7
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0x6 SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0x6
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x40
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e54[libmrcds.so@0x4be54]		ldp	x9, x10, [sp, #40]	SP=0x7a384001a0
+0x7a3b919e58[libmrcds.so@0x4be58]		cmp	x9, x10	X9=0x7b59742eb4 X10=0x7b59742ec0
+0x7a3b919e5c[libmrcds.so@0x4be5c]		b.lo	#-52	
+0x7a3b919e28[libmrcds.so@0x4be28]		str	w8, [x9], #4	W8=0x6 X9=0x7b59742eb4
+0x7a3b919e2c[libmrcds.so@0x4be2c]		str	x9, [sp, #40]	X9=0x7b59742eb8 SP=0x7a384001a0
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0x6
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0x6
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0x5 SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0x5
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x20
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0x5
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0x5
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0x4 SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0x4
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x10
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0x4
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0x4
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0x3 SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0x3
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x8
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0x3
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0x3
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0x2 SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0x2
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x4
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0x2
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0x2
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0x1 SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0x1
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x2
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0x1
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0x1
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0x0 SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e44[libmrcds.so@0x4be44]		ldr	w9, [x20, #4]	X20=0x7a38400210
+0x7a3b919e48[libmrcds.so@0x4be48]		lsl	w10, w22, w8	W22=0x1 W8=0x0
+0x7a3b919e4c[libmrcds.so@0x4be4c]		tst	w9, w10	W9=0x40841240 W10=0x1
+0x7a3b919e50[libmrcds.so@0x4be50]		b.eq	#-32	
+0x7a3b919e30[libmrcds.so@0x4be30]		ldr	w9, [sp, #4]	SP=0x7a384001a0
+0x7a3b919e34[libmrcds.so@0x4be34]		sub	w8, w9, #1	W9=0x0
+0x7a3b919e38[libmrcds.so@0x4be38]		cmp	w9, #0	W9=0x0
+0x7a3b919e3c[libmrcds.so@0x4be3c]		str	w8, [sp, #4]	W8=0xffffffff SP=0x7a384001a0
+0x7a3b919e40[libmrcds.so@0x4be40]		b.le	#48	
+0x7a3b919e70[libmrcds.so@0x4be70]		ldp	x0, x8, [sp, #32]	SP=0x7a384001a0
+0x7a3b919e74[libmrcds.so@0x4be74]		subs	x11, x8, x0	X8=0x7b59742eb8 X0=0x7b59742ea0
+0x7a3b919e78[libmrcds.so@0x4be78]		b.eq	#96	
+0x7a3b919e7c[libmrcds.so@0x4be7c]		ldp	x10, x9, [sp, #8]	SP=0x7a384001a0
+0x7a3b919e80[libmrcds.so@0x4be80]		mov	x8, xzr	
+0x7a3b919e84[libmrcds.so@0x4be84]		asr	x11, x11, #2	X11=0x18
+0x7a3b919e88[libmrcds.so@0x4be88]		mov	w12, #1	
+0x7a3b919e8c[libmrcds.so@0x4be8c]		b	#24	
+0x7a3b919ea4[libmrcds.so@0x4bea4]		ldr	w13, [x0, x8, lsl #2]	X0=0x7b59742ea0 X8=0x0
+0x7a3b919ea8[libmrcds.so@0x4bea8]		cmp	x9, x8	X9=0x6 X8=0x0
+0x7a3b919eac[libmrcds.so@0x4beac]		b.ls	#-28	
+0x7a3b919eb0[libmrcds.so@0x4beb0]		lsr	x14, x8, #3	X8=0x0
+0x7a3b919eb4[libmrcds.so@0x4beb4]		and	x14, x14, #0x1ffffffffffffff8	X14=0x0
+0x7a3b919eb8[libmrcds.so@0x4beb8]		ldr	x14, [x10, x14]	X10=0x7ac3ec25f8 X14=0x0
+0x7a3b919ebc[libmrcds.so@0x4bebc]		lsl	x15, x12, x8	X12=0x1 X8=0x0
+0x7a3b919ec0[libmrcds.so@0x4bec0]		tst	x14, x15	X14=0x0 X15=0x1
+0x7a3b919ec4[libmrcds.so@0x4bec4]		b.eq	#-52	
+0x7a3b919e90[libmrcds.so@0x4be90]		lsl	w13, w12, w13	W12=0x1 W13=0x1e
+0x7a3b919e94[libmrcds.so@0x4be94]		bic	w19, w19, w13	W19=0x2012037 W13=0x40000000
+0x7a3b919e98[libmrcds.so@0x4be98]		add	x8, x8, #1	X8=0x0
+0x7a3b919e9c[libmrcds.so@0x4be9c]		cmp	x11, x8	X11=0x6 X8=0x1
+0x7a3b919ea0[libmrcds.so@0x4bea0]		b.ls	#52	
+0x7a3b919ea4[libmrcds.so@0x4bea4]		ldr	w13, [x0, x8, lsl #2]	X0=0x7b59742ea0 X8=0x1
+0x7a3b919ea8[libmrcds.so@0x4bea8]		cmp	x9, x8	X9=0x6 X8=0x1
+0x7a3b919eac[libmrcds.so@0x4beac]		b.ls	#-28	
+0x7a3b919eb0[libmrcds.so@0x4beb0]		lsr	x14, x8, #3	X8=0x1
+0x7a3b919eb4[libmrcds.so@0x4beb4]		and	x14, x14, #0x1ffffffffffffff8	X14=0x0
+0x7a3b919eb8[libmrcds.so@0x4beb8]		ldr	x14, [x10, x14]	X10=0x7ac3ec25f8 X14=0x0
+0x7a3b919ebc[libmrcds.so@0x4bebc]		lsl	x15, x12, x8	X12=0x1 X8=0x1
+0x7a3b919ec0[libmrcds.so@0x4bec0]		tst	x14, x15	X14=0x0 X15=0x2
+0x7a3b919ec4[libmrcds.so@0x4bec4]		b.eq	#-52	
+0x7a3b919e90[libmrcds.so@0x4be90]		lsl	w13, w12, w13	W12=0x1 W13=0x17
+0x7a3b919e94[libmrcds.so@0x4be94]		bic	w19, w19, w13	W19=0x2012037 W13=0x800000
+0x7a3b919e98[libmrcds.so@0x4be98]		add	x8, x8, #1	X8=0x1
+0x7a3b919e9c[libmrcds.so@0x4be9c]		cmp	x11, x8	X11=0x6 X8=0x2
+0x7a3b919ea0[libmrcds.so@0x4bea0]		b.ls	#52	
+0x7a3b919ea4[libmrcds.so@0x4bea4]		ldr	w13, [x0, x8, lsl #2]	X0=0x7b59742ea0 X8=0x2
+0x7a3b919ea8[libmrcds.so@0x4bea8]		cmp	x9, x8	X9=0x6 X8=0x2
+0x7a3b919eac[libmrcds.so@0x4beac]		b.ls	#-28	
+0x7a3b919eb0[libmrcds.so@0x4beb0]		lsr	x14, x8, #3	X8=0x2
+0x7a3b919eb4[libmrcds.so@0x4beb4]		and	x14, x14, #0x1ffffffffffffff8	X14=0x0
+0x7a3b919eb8[libmrcds.so@0x4beb8]		ldr	x14, [x10, x14]	X10=0x7ac3ec25f8 X14=0x0
+0x7a3b919ebc[libmrcds.so@0x4bebc]		lsl	x15, x12, x8	X12=0x1 X8=0x2
+0x7a3b919ec0[libmrcds.so@0x4bec0]		tst	x14, x15	X14=0x0 X15=0x4
+0x7a3b919ec4[libmrcds.so@0x4bec4]		b.eq	#-52	
+0x7a3b919e90[libmrcds.so@0x4be90]		lsl	w13, w12, w13	W12=0x1 W13=0x12
+0x7a3b919e94[libmrcds.so@0x4be94]		bic	w19, w19, w13	W19=0x2012037 W13=0x40000
+0x7a3b919e98[libmrcds.so@0x4be98]		add	x8, x8, #1	X8=0x2
+0x7a3b919e9c[libmrcds.so@0x4be9c]		cmp	x11, x8	X11=0x6 X8=0x3
+0x7a3b919ea0[libmrcds.so@0x4bea0]		b.ls	#52	
+0x7a3b919ea4[libmrcds.so@0x4bea4]		ldr	w13, [x0, x8, lsl #2]	X0=0x7b59742ea0 X8=0x3
+0x7a3b919ea8[libmrcds.so@0x4bea8]		cmp	x9, x8	X9=0x6 X8=0x3
+0x7a3b919eac[libmrcds.so@0x4beac]		b.ls	#-28	
+0x7a3b919eb0[libmrcds.so@0x4beb0]		lsr	x14, x8, #3	X8=0x3
+0x7a3b919eb4[libmrcds.so@0x4beb4]		and	x14, x14, #0x1ffffffffffffff8	X14=0x0
+0x7a3b919eb8[libmrcds.so@0x4beb8]		ldr	x14, [x10, x14]	X10=0x7ac3ec25f8 X14=0x0
+0x7a3b919ebc[libmrcds.so@0x4bebc]		lsl	x15, x12, x8	X12=0x1 X8=0x3
+0x7a3b919ec0[libmrcds.so@0x4bec0]		tst	x14, x15	X14=0x0 X15=0x8
+0x7a3b919ec4[libmrcds.so@0x4bec4]		b.eq	#-52	
+0x7a3b919e90[libmrcds.so@0x4be90]		lsl	w13, w12, w13	W12=0x1 W13=0xc
+0x7a3b919e94[libmrcds.so@0x4be94]		bic	w19, w19, w13	W19=0x2012037 W13=0x1000
+0x7a3b919e98[libmrcds.so@0x4be98]		add	x8, x8, #1	X8=0x3
+0x7a3b919e9c[libmrcds.so@0x4be9c]		cmp	x11, x8	X11=0x6 X8=0x4
+0x7a3b919ea0[libmrcds.so@0x4bea0]		b.ls	#52	
+0x7a3b919ea4[libmrcds.so@0x4bea4]		ldr	w13, [x0, x8, lsl #2]	X0=0x7b59742ea0 X8=0x4
+0x7a3b919ea8[libmrcds.so@0x4bea8]		cmp	x9, x8	X9=0x6 X8=0x4
+0x7a3b919eac[libmrcds.so@0x4beac]		b.ls	#-28	
+0x7a3b919eb0[libmrcds.so@0x4beb0]		lsr	x14, x8, #3	X8=0x4
+0x7a3b919eb4[libmrcds.so@0x4beb4]		and	x14, x14, #0x1ffffffffffffff8	X14=0x0
+0x7a3b919eb8[libmrcds.so@0x4beb8]		ldr	x14, [x10, x14]	X10=0x7ac3ec25f8 X14=0x0
+0x7a3b919ebc[libmrcds.so@0x4bebc]		lsl	x15, x12, x8	X12=0x1 X8=0x4
+0x7a3b919ec0[libmrcds.so@0x4bec0]		tst	x14, x15	X14=0x0 X15=0x10
+0x7a3b919ec4[libmrcds.so@0x4bec4]		b.eq	#-52	
+0x7a3b919e90[libmrcds.so@0x4be90]		lsl	w13, w12, w13	W12=0x1 W13=0x9
+0x7a3b919e94[libmrcds.so@0x4be94]		bic	w19, w19, w13	W19=0x2012037 W13=0x200
+0x7a3b919e98[libmrcds.so@0x4be98]		add	x8, x8, #1	X8=0x4
+0x7a3b919e9c[libmrcds.so@0x4be9c]		cmp	x11, x8	X11=0x6 X8=0x5
+0x7a3b919ea0[libmrcds.so@0x4bea0]		b.ls	#52	
+0x7a3b919ea4[libmrcds.so@0x4bea4]		ldr	w13, [x0, x8, lsl #2]	X0=0x7b59742ea0 X8=0x5
+0x7a3b919ea8[libmrcds.so@0x4bea8]		cmp	x9, x8	X9=0x6 X8=0x5
+0x7a3b919eac[libmrcds.so@0x4beac]		b.ls	#-28	
+0x7a3b919eb0[libmrcds.so@0x4beb0]		lsr	x14, x8, #3	X8=0x5
+0x7a3b919eb4[libmrcds.so@0x4beb4]		and	x14, x14, #0x1ffffffffffffff8	X14=0x0
+0x7a3b919eb8[libmrcds.so@0x4beb8]		ldr	x14, [x10, x14]	X10=0x7ac3ec25f8 X14=0x0
+0x7a3b919ebc[libmrcds.so@0x4bebc]		lsl	x15, x12, x8	X12=0x1 X8=0x5
+0x7a3b919ec0[libmrcds.so@0x4bec0]		tst	x14, x15	X14=0x0 X15=0x20
+0x7a3b919ec4[libmrcds.so@0x4bec4]		b.eq	#-52	
+0x7a3b919e90[libmrcds.so@0x4be90]		lsl	w13, w12, w13	W12=0x1 W13=0x6
+0x7a3b919e94[libmrcds.so@0x4be94]		bic	w19, w19, w13	W19=0x2012037 W13=0x40
+0x7a3b919e98[libmrcds.so@0x4be98]		add	x8, x8, #1	X8=0x5
+0x7a3b919e9c[libmrcds.so@0x4be9c]		cmp	x11, x8	X11=0x6 X8=0x6
+0x7a3b919ea0[libmrcds.so@0x4bea0]		b.ls	#52	
+0x7a3b919ed4[libmrcds.so@0x4bed4]		mov	x8, x0	X0=0x7b59742ea0
+0x7a3b919ed8[libmrcds.so@0x4bed8]		str	x8, [sp, #40]	X8=0x7b59742ea0 SP=0x7a384001a0
+0x7a3b919edc[libmrcds.so@0x4bedc]		str	xzr, [sp, #16]	SP=0x7a384001a0
+0x7a3b919ee0[libmrcds.so@0x4bee0]		cbz	x0, #12	X0=0x7b59742ea0
+0x7a3b919ee4[libmrcds.so@0x4bee4]		str	x0, [sp, #40]	X0=0x7b59742ea0 SP=0x7a384001a0
+0x7a3b919ee8[libmrcds.so@0x4bee8]		bl	#-29112	SP=0x7a384001a0
+0x7a3b912d30[libmrcds.so@0x44d30]		adrp	x16, #598016	
+0x7a3b912d34[libmrcds.so@0x44d34]		ldr	x17, [x16, #3616]	X16=0x7a3b9a4000
+0x7a3b912d38[libmrcds.so@0x44d38]		add	x16, x16, #3616	X16=0x7a3b9a4000
+0x7a3b912d3c[libmrcds.so@0x44d3c]		br	x17	X17=0x7a3b95c924
+0x7a3b95c924[libmrcds.so@0x8e924]		b	#-301236	
+0x7a3b913070[libmrcds.so@0x45070]		adrp	x16, #593920	
+0x7a3b913074[libmrcds.so@0x45074]		ldr	x17, [x16, #4032]	X16=0x7a3b9a4000
+0x7a3b913078[libmrcds.so@0x45078]		add	x16, x16, #4032	X16=0x7a3b9a4000
+0x7a3b91307c[libmrcds.so@0x4507c]		br	x17	X17=0x7b5899a2bc
+ -> transfer call to 0x7b5899a2bc (libc.so@0x402bc)
+ <- transfer return from 0x7b5899a2bc (libc.so@0x402bc)
+0x7a3b919eec[libmrcds.so@0x4beec]		ldr	x0, [sp, #8]	SP=0x7a384001a0
+0x7a3b919ef0[libmrcds.so@0x4bef0]		cbz	x0, #8	X0=0x7ac3ec25f8
+0x7a3b919ef4[libmrcds.so@0x4bef4]		bl	#-29124	SP=0x7a384001a0
+0x7a3b912d30[libmrcds.so@0x44d30]		adrp	x16, #598016	
+0x7a3b912d34[libmrcds.so@0x44d34]		ldr	x17, [x16, #3616]	X16=0x7a3b9a4000
+0x7a3b912d38[libmrcds.so@0x44d38]		add	x16, x16, #3616	X16=0x7a3b9a4000
+0x7a3b912d3c[libmrcds.so@0x44d3c]		br	x17	X17=0x7a3b95c924
+0x7a3b95c924[libmrcds.so@0x8e924]		b	#-301236	
+0x7a3b913070[libmrcds.so@0x45070]		adrp	x16, #593920	
+0x7a3b913074[libmrcds.so@0x45074]		ldr	x17, [x16, #4032]	X16=0x7a3b9a4000
+0x7a3b913078[libmrcds.so@0x45078]		add	x16, x16, #4032	X16=0x7a3b9a4000
+0x7a3b91307c[libmrcds.so@0x4507c]		br	x17	X17=0x7b5899a2bc
+ -> transfer call to 0x7b5899a2bc (libc.so@0x402bc)
+ <- transfer return from 0x7b5899a2bc (libc.so@0x402bc)
+0x7a3b919ef8[libmrcds.so@0x4bef8]		ldr	x8, [x21, #40]	X21=0x7ac4f98020
+0x7a3b919efc[libmrcds.so@0x4befc]		ldur	x9, [x29, #-40]	FP=0x7a38400200
+0x7a3b919f00[libmrcds.so@0x4bf00]		cmp	x8, x9	X8=0x873515649ccc4b18 X9=0x873515649ccc4b18
+0x7a3b919f04[libmrcds.so@0x4bf04]		b.ne	#28	
+0x7a3b919f08[libmrcds.so@0x4bf08]		mov	w0, w19	W19=0x2012037
+0x7a3b919f0c[libmrcds.so@0x4bf0c]		ldp	x29, x30, [sp, #96]	SP=0x7a384001a0
+0x7a3b919f10[libmrcds.so@0x4bf10]		ldp	x20, x19, [sp, #80]	SP=0x7a384001a0
+0x7a3b919f14[libmrcds.so@0x4bf14]		ldp	x22, x21, [sp, #64]	SP=0x7a384001a0
+0x7a3b919f18[libmrcds.so@0x4bf18]		add	sp, sp, #112	SP=0x7a384001a0
+0x7a3b919f1c[libmrcds.so@0x4bf1c]		ret	LR=0x7a3b91f430
+0x7a3b91f430[libmrcds.so@0x51430]		ldr	x8, [x19, #40]	X19=0x7ac4f98020
+0x7a3b91f434[libmrcds.so@0x51434]		ldr	x9, [sp, #8]	SP=0x7a38400210
+0x7a3b91f438[libmrcds.so@0x51438]		cmp	x8, x9	X8=0x873515649ccc4b18 X9=0x873515649ccc4b18
+0x7a3b91f43c[libmrcds.so@0x5143c]		b.ne	#20	
+0x7a3b91f440[libmrcds.so@0x51440]		ldp	x29, x30, [sp, #32]	SP=0x7a38400210
+0x7a3b91f444[libmrcds.so@0x51444]		ldr	x19, [sp, #16]	SP=0x7a38400210
+0x7a3b91f448[libmrcds.so@0x51448]		add	sp, sp, #48	SP=0x7a38400210
+0x7a3b91f44c[libmrcds.so@0x5144c]		ret	LR=0x2a
